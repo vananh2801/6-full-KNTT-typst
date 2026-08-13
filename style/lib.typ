@@ -73,6 +73,15 @@
     box(inset: (left: 1pt, right: 1pt))[#it]
   }
 
+  // Cấu hình dấu chia hết cho
+  show math.dots.v: it => {
+    box(move(dy: -0.5pt)[#it])
+  }
+
+  show math.cancel: it => {
+    box[#it]
+  }
+
   // Cấu hình bộ đếm của tiêu đề
   set heading(numbering: (..nums) => {
     let n = nums.pos()
