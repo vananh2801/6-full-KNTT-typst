@@ -9,14 +9,14 @@
 
 #dn(tieude: "Phép nâng lên luỹ thừa")[
   _Luỹ thừa bậc $n$_ của số tự nhiên $a$ là tích của $n$ thừa số bằng nhau, mỗi thừa số bằng $a$:
-  $ a^n = underbrace(a dot a dots a, n" thừa số") quad (n in NN^*) $
+  $ a^n = underbrace(a dot a dot dots dot a, n" thừa số") quad (n in NN^*) $
   Trong đó, $a^n$ đọc là "a mũ $n$" hoặc "a luỹ thừa $n$", $a$ là cơ số, $n$ là số mũ.
 
   Phép nhân nhiều thừa số bằng nhau gọi là _phép nâng lên luỹ thừa_.
 ]
 
 #luuy()[
-  - Ta có $a^1 = a$.
+  - $a^1 = a$.
   - $a^2$ cũng được gọi là $a$ bình phương (hay bình phương của $a$).
   - $a^3$ cũng được gọi là $a$ lập phương (hay lập phương của $a$).
   - Ta quy ước $a^0=1$.
@@ -82,5 +82,19 @@
   ]
   #loigiai()[
     #dotlineEX(2)
+  ]
+]
+
+#nhanxet()[
+  - Mở rộng, ta có:
+  #align(center)[
+    #box(stroke: 1pt + blue, radius: 6pt, inset: 12pt)[
+      $(a^m)^n = underbrace(a^m dot a^m dot dots dot a^m, n" thừa số")=a^(m+m+...+m)=a^(m dot n)$
+    ]
+  ]
+  #align(center)[
+    #box(stroke: 1pt + blue, radius: 6pt, inset: 12pt)[
+      $(a dot b)^n = underbrace(a dot b dot a dot b dot dots dot a dot b, n "thừa số" a "và" n "thừa số" b)=underbrace(a dot a dot dots dot a, n" thừa số") dot underbrace(b dot b dot dots dot b, n" thừa số")=a^n dot b^n$
+    ]
   ]
 ]

@@ -23,3 +23,12 @@
 #include "data/6D1-5.typ"
 #include "data/6D1-6.typ"
 #include "data/6D1-7.typ"
+
+// Chương 2
+#counter(heading).update((1,))
+#chapter()[Tính chia hết#linebreak() trong tập hợp các số tự nhiên]
+#include "data/6D2-1.typ"
+#include "data/6D2-2.typ"
+#include "data/6D2-3.typ"
+#include "data/6D2-4.typ"
+#include "data/6D2-5.typ"
