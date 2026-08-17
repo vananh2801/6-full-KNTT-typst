@@ -314,7 +314,7 @@
   parbreak()
   set enum(
     numbering: (..n) => {
-      [#emph[Bước] #numbering("1.", n.pos().at(0))]
+      [#emph[Bước #numbering("1.", n.pos().at(0))]]
     },
     indent: 1em,
   )
