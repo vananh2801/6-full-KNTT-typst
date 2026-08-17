@@ -85,12 +85,10 @@ Khi đó, ta viết $a < b$ hoặc $b > a$. Ta còn nói: điểm $a$ nằm trư
   ]
 ]
 
-Mỗi số tự nhiên có duy nhất một _số liền sau_.
-
-Giả sử, số $c$ có số liền sau là số $d$. Khi đó, số $d$ là _số liền trước_ của số $c$. Hai số $c$ và $d$ là _hai số tự nhiên liên tiếp_.
+Số tự nhiên $b$ gọi là _số liền sau_ của số tự nhiên $a$ nếu $a<b$ và không có số tự nhiên nào giữa $a$ và $b$ trên trục số (tức là _lớn hơn $a$ và nhỏ hơn $b$_), Khi đó, ta cũng nói $a$ là _số liền trước_ của $b$. Mỗi số tự nhiên có duy nhất một _số liền sau_. Hai số $a$ và $b$ là _hai số tự nhiên liên tiếp_.
 
 #luuy()[
-  Số 0 không có số tự nhiên liền trước và là số tự nhiên nhỏ nhất.
+  - Số 0 không có số tự nhiên liền trước và là số tự nhiên nhỏ nhất.
 ]
 
 #vd()[

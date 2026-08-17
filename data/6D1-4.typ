@@ -85,7 +85,7 @@
     ]
   ]
 
-#tc(tieude: "Tính chất của phép cộng")[
+#tc(tieude: "Tính chất của phép cộng số tự nhiên")[
   #grid(columns: (1fr, 1fr))[
     - Giao hoán: $a + b = b + a$.
   ][

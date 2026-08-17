@@ -87,14 +87,14 @@
 
 #nhanxet()[
   - Mở rộng, ta có:
-  #align(center)[
-    #box(stroke: 1pt + blue, radius: 6pt, inset: 12pt)[
-      $(a^m)^n = underbrace(a^m dot a^m dot dots dot a^m, n" thừa số")=a^(m+m+...+m)=a^(m dot n)$
+    #align(center)[
+      #box(stroke: 1pt + blue, radius: 6pt, inset: 12pt)[
+        $(a^m)^n = underbrace(a^m dot a^m dot dots dot a^m, n" thừa số")=a^(m+m+...+m)=a^(m dot n)$
+      ]
     ]
-  ]
-  #align(center)[
-    #box(stroke: 1pt + blue, radius: 6pt, inset: 12pt)[
-      $(a dot b)^n = underbrace(a dot b dot a dot b dot dots dot a dot b, n "thừa số" a "và" n "thừa số" b)=underbrace(a dot a dot dots dot a, n" thừa số") dot underbrace(b dot b dot dots dot b, n" thừa số")=a^n dot b^n$
+    #align(center)[
+      #box(stroke: 1pt + blue, radius: 6pt, inset: 12pt)[
+        $(a dot b)^n = underbrace(a dot b dot a dot b dot dots dot a dot b, n "thừa số" a "và" n "thừa số" b)=underbrace(a dot a dot dots dot a, n" thừa số") dot underbrace(b dot b dot dots dot b, n" thừa số")=a^n dot b^n$
+      ]
     ]
-  ]
 ]

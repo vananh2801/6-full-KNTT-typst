@@ -85,17 +85,32 @@
 ]
 
 #nhanxet()[
-  - Các số chia hết cho 10 thì vừa chia hết cho 2, vừa chia hết cho 5.
-  - Các số chia hết cho $9$ thì cũng chia hết cho $3$.
-  - Mở rộng:
+  Mở rộng:
+  - Nếu $a$ chia hết cho $b$ và $b$ chia hết cho $c$ thì $a$ cũng chia hết cho $c$.
     #align(center)[
       #box(stroke: 1pt + blue, radius: 6pt, inset: 12pt)[
-        Nếu $a dots.v b$ và $b dots.v c$ thì $a dots.v c quad ("với" a in NN "và" b,c in NN^*)$
+        Nếu $a dots.v b$ và $b dots.v c$ thì $a dots.v c$
       ]
     ]
-    Chứng minh:
+    _Chứng minh:_
     - Ta có $a dots.v b$ tức là tồn tại số tự nhiên $h$ sao cho $a=h b$.
     - Mặt khác, $b dots.v c$ tức là tồn tại số tự nhiên $k$ sao cho $b=k c$.
-    - Từ đó, ta có $a=h b=h k c$. Đặt $l=h k$, khi đó tồn tại số tự nhiên $l$ sao cho $a=l c$.
+    - Từ đó, ta có $a=h b=h k c$. Khi đó tồn tại số tự nhiên $l=h k$ sao cho $a=l c$.
     - Suy ra $a dots.v c$.
+  - Nếu $a$ chia hết cho $b$ thì bội của $a$ cũng chia hết cho $b$.
+    #align(center)[
+      #box(stroke: 1pt + blue, radius: 6pt, inset: 12pt)[
+        Nếu $a dots.v b$ thì $a m dots.v b$ #h(1em) (với $m in NN$)
+      ]
+    ]
+    _Chứng minh:_
+    - Ta có $a dots.v b$ tức là tồn tại số tự nhiên $h$ sao cho $a=h b$.
+    - Từ đó, bội của $a m=h b m=h m b$. Khi đó, tồn tại số tự nhiên $k=h m$ sao cho $a m$ = $k b$.
+    - Suy ra $a m dots.v b$.
+
+]
+
+#vd()[
+  - Các số chia hết cho 10 thì vừa chia hết cho 2, vừa chia hết cho 5.
+  - Các số chia hết cho $9$ thì cũng chia hết cho $3$.
 ]

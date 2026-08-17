@@ -61,7 +61,7 @@
   ]
 ]
 
-#tc(tieude: "Tính chất của phép nhân")[
+#tc(tieude: "Tính chất của phép nhân số tự nhiên")[
   #grid(
     columns: (1fr, 1fr),
   )[
