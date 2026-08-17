@@ -94,7 +94,7 @@
     } else if n.len() == 4 {
       return numbering("1.", n.last()) // Tiết \subsubsection
     } else if n.len() == 5 {
-      return numbering("a).", n.last()) // Mục vừa \paragraph
+      return numbering("a.", n.last()) // Mục vừa \paragraph
     }
   })
 
@@ -449,22 +449,6 @@
   #if title != none {
     [#parbreak()#h(1fr)#emph[Nguồn: #title]]
   }
-]
-
-#let dlcontentF(
-  body,
-  fulllabel: none,
-  shortlabel: none,
-  label: none,
-  title: none,
-  count: none,
-) = [
-  // In đậm Tiêu đề
-  #strong[#fulllabel]
-  // In nghiêng nội dung
-  #set text(style: "italic")
-  #show emph: it => it.body
-  #body
 ]
 
 // Định nghĩa
